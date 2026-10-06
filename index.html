@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mark Eduard Boligor | BSIT Student & Aspiring Network Administrator</title>
+  <meta name="description" content="Portfolio of Mark Eduard Boligor, 3rd-year BSIT student focused on networking, databases, and web development.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top">Mark Boligor</a>
+    <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    <nav id="menu">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="status"><span class="dot"></span> Open for internships</p>
+        <h1>Mark Eduard Boligor</h1>
+        <p class="lead">3rd-year BSIT student building toward a career as a <strong>Network Administrator</strong>. I work with networks, databases, and web apps.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">View projects</a>
+          <a class="btn" href="Boligor_Mark_Resume.pdf">Download resume</a>
+        </div>
+      </div>
+      <figure class="topology" aria-label="Network diagram. Hover or tap a node.">
+        <svg viewBox="0 0 320 260" role="img">
+          <g class="links">
+            <line x1="160" y1="130" x2="160" y2="30"/>
+            <line x1="160" y1="130" x2="60" y2="80"/>
+            <line x1="160" y1="130" x2="260" y2="80"/>
+            <line x1="160" y1="130" x2="60" y2="200"/>
+            <line x1="160" y1="130" x2="260" y2="200"/>
+            <line x1="160" y1="130" x2="160" y2="235"/>
+          </g>
+          <g class="node core" data-label="Router"><circle cx="160" cy="130" r="22"/></g>
+          <g class="node" data-label="Firewall"><circle cx="160" cy="30" r="14"/></g>
+          <g class="node" data-label="Switch"><circle cx="60" cy="80" r="14"/></g>
+          <g class="node" data-label="Server"><circle cx="260" cy="80" r="14"/></g>
+          <g class="node" data-label="Database"><circle cx="60" cy="200" r="14"/></g>
+          <g class="node" data-label="Access Point"><circle cx="260" cy="200" r="14"/></g>
+          <g class="node" data-label="Client PC"><circle cx="160" cy="235" r="14"/></g>
+        </svg>
+        <figcaption id="node-label">Tap a node</figcaption>
+      </figure>
+    </section>
+
+    <section id="about" class="section narrow about">
+      <img class="photo" src="photo.jpg" alt="Photo of Mark Eduard Boligor" width="200" height="200">
+      <div>
+      <h2>About</h2>
+      <p>I'm a BSIT student in section 3-1. I enjoy figuring out how systems connect, from configuring networks to designing databases and building the web apps that sit on top of them.</p>
+      <p>My goal is an entry-level Network Administrator role where I can configure, troubleshoot, and maintain reliable networks.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Cisco Packet Tracer</h3>
+          <p>Designed and configured a LAN using routers,switches and end devices in Cisco Packet Tracer.</p>
+          <p class="tech">Tech: [add your stack]</p>
+          <a href="#" class="link">GitHub repo</a>
+        </article>
+        <article class="card">
+          <h3>Troubleshoot</h3>
+          <p>find the fix cause of slow,dropped,or failed connections.</p>
+          <p class="tech">Tech: [add your stack]</p>
+          <a href="#" class="link">GitHub repo</a>
+        </article>
+        <article class="card">
+          <h3>Manage IP addresses</h3>
+          <p>handle DHCP,DNS,and IP assignment.</p>
+        
+          <a href="#" class="link">GitHub repo</a>
+        </article>  
+        <article class="card">
+          <h3>Laravel + PostgreSQL Products App</h3>
+          <p>Product management app with migrations, a resource controller, and custom middleware.</p>
+          <p class="tech">Tech: PHP, Laravel, PostgreSQL</p>
+          <a href="#" class="link">GitHub repo</a>
+        </article>
+      </div>
+      <p class="note">Add more of your completed projects from first year onward by copying a card.</p>
+    </section>
+
+    <section id="skills" class="section narrow">
+      <h2>Skills</h2>
+      <dl class="skills">
+        <dt>Networking</dt><dd>TCP/IP, LAN/WAN, troubleshooting</dd>
+        <dt>Languages</dt><dd>Java, PHP, JavaScript</dd>
+        <dt>Web</dt><dd>HTML, CSS, Laravel, Spring Boot</dd>
+        <dt>Databases</dt><dd>PostgreSQL, PL/pgSQL</dd>
+        <dt>Tools</dt><dd>Git, GitHub, VS Code</dd>
+      </dl>
+    </section>
+
+    <section id="contact" class="section narrow">
+      <h2>Contact</h2>
+      <p>Want to work together or have an internship opening? Reach out.</p>
+      <ul class="contact">
+        <li><a href="mailto:your.email@example.com">markeduardboligor@gmail.com</a></li>
+        <li><a href="https://github.com/username">markeduardboligor</a></li>
+        <li><a href="https://linkedin.com/in/username">boligormarkeduard</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>&copy; <span id="year"></span> Mark Eduard Boligor</footer>
+  <script src="script.js"></script>
+</body>
+</html>
